@@ -1,7 +1,7 @@
 :root {
     --color222: #222222;
     --colora4: #a4a4a4;
-    --color-corall: #f16d7f;
+    --color-corall:     #f16d7f;
     --color222-4: #222224;
     --colore6: #e6e6e6;
     --item-height: 376px;
@@ -98,7 +98,7 @@ header .container {
 
 .header-search input {
     width: 281px;
-    padding-left: 18px;
+    padding: 0 18px 0;
 
     border: none;
 
@@ -174,17 +174,35 @@ header .container {
     display: flex;
     justify-content: space-between;
     width: 680px;
-    margin: 21px auto 23px;
+    height: 50px;
+    margin:0 auto 3px;
+    padding: 0;
 
     list-style: none;
 }
 
+.menu li {
+    height: 100%;
+}
+
 .menu a {
+    display: flex;
+    align-items: center;
+    height: 100%;
     color: var(--color222);
     font-size: 14px;
     font-weight: 700;
 
     text-transform: uppercase;
+}
+
+.menu a:hover{
+    color: #555555;
+}
+
+
+.menu a.active{
+    border-bottom: 3px solid var(--color-corall);
 }
 
 .slider {
@@ -355,19 +373,26 @@ header .container {
     font-weight: 700;
 }
 
-.feaured-hover-mod {
+.featured-hover-mod {
     position: absolute;
     top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     display: none;
-
+    width: 100%;
+    height: 100%;
+    
     box-shadow: 0 5px 8px rgba(0, 0, 0, .16);
 }
 
-.featured-preview-item:hover .feaured-hover-mod {
+.featured-preview-item:hover .featured-hover-mod {
     display: block;
+    
+}
+
+.featured-hover-mod>a:first-of-type {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -375,8 +400,9 @@ header .container {
 .featured-hover-black {
     width: 100%;
     height: var(--item-img-height);
-
     background-color: rgba(58, 56, 56, .7);
+
+    
 }
 
 .featured-cart {
@@ -397,6 +423,14 @@ header .container {
     color: #fff;
     font-size: 13px;
     font-weight: 700;
+}
+
+.featured-cart-link {
+    position: absolute;
+    top: 0;
+    width: 123px;
+    height: 39px;
+    margin: 100px auto 0;
 }
 
 .featured-cart > img {
@@ -426,6 +460,11 @@ header .container {
     font-weight: 700;
     letter-spacing: .4px;
 }
+
+.browse-all:hover{
+   background-color: #e26677; 
+}
+
 
 .browse-all img {
     margin-top: 5px;
@@ -722,6 +761,9 @@ h3 {
     font-weight: 400;
     line-height: 42px;
     letter-spacing: .4px;
+}
+.bottom-col li a:hover{
+   color: #454545; 
 }
 
 .footer {
