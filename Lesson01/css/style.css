@@ -278,7 +278,7 @@ header .container {
     display: flex;
     height: 100%;
 
-    background-image: url(images/slider.jpg);
+    background-image: url(../images/slider.jpg);
     background-repeat: no-repeat;
     background-position: 20px -51px;
 }
@@ -584,7 +584,7 @@ header .container {
     width: 767px;
     height: 529px;
 
-    background-image: url(images/snow-girl.jpg);
+    background-image: url(../images/snow-girl.jpg);
 }
 
 .specialoffer-left > div {
@@ -668,7 +668,7 @@ header .container {
     height: 438px;
     margin: 100px auto 0;
 
-    background-image: url(images/subsc-back.jpg);
+    background-image: url(../images/subsc-back.jpg);
     background-repeat: no-repeat;
 }
 
