@@ -126,24 +126,43 @@
                     <h3>SIZE</h3>
                     <div class="filter-wrapper">
                         <div>
+                            
                             <input type="checkbox" id="check1">
-                            <label for="check1">XXS</label>
+                            <label for="check1">
+                              <div class="checkmark"></div>
+                               XXS
+                            </label>
                             <input type="checkbox" id="check2">
-                            <label for="check2">XS</label>
+                            <label for="check2">
+                                <div class="checkmark"></div>XS
+                            </label>
                             <input type="checkbox" id="check3">
-                            <label for="check3">S</label>
+                            <label for="check3">
+                                <div class="checkmark"></div>S
+                            </label>
                             <input type="checkbox" id="check4">
-                            <label for="check4">M</label>
+                            <label for="check4">
+                                <div class="checkmark"></div>M
+                            </label>
+                            
+
                         </div>
                         
                         <div>
                             <input type="checkbox" id="check5">
-                            <label for="check5">L</label>
+                            <label for="check5">
+                                <div class="checkmark"></div>L
+                            </label>
                             <input type="checkbox" id="check6">
-                            <label for="check6">XL</label>
+                            <label for="check6">
+                                <div class="checkmark"></div>XL
+                            </label>
                             <input type="checkbox" id="check7">
-                            <label for="check7">XXL</label>
-                        </div> </div>                            
+                            <label for="check7">
+                                <div class="checkmark"></div>XXL
+                            </label>
+                        </div>  
+                    </div>                         
                 </div>
                 
                 <div class="price">
@@ -152,7 +171,7 @@
                         <form class ="filter-wrapper" action="" oninput="output.value=range.value">
                            
                             <div>
-                                <input type="range" name ="range" min="0" max="1000" step="10" class="price-range" id="range">
+                                <input type="range" name ="range" min="0" max="1000" step="10"  value="0" class="price-range" id="range">
                             </div>
                             <div class="output-value">
                                <span>$0</span>
@@ -166,16 +185,41 @@
             </div>
             
             <div class="sort">
-<!--
-               <div class="sort-select">Sort By</div>
-               <select class="sort-select" name="" id="">
-                   <option value="Name"></option>
-                   <option value="Price"></option>
-               </select>
--->
+               <div class="sort-container">
+                   <div class="sort-label">Sort By</div>
+                   <div class="sort-select">
+                       <select name="" id="">
+                           <option value="Name">Name</option>
+                           <option value="Price">Price</option>
+                       </select>
+                   </div>
+               </div>
+               
+               <div class="sort-container">
+                   <div class="sort-label">Show</div>
+                   <div class="sort-select">
+                       <select name="" id="">
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3">3</option>
+                           <option value="4">4</option>
+                           <option value="5">5</option>
+                           <option value="6">6</option>
+                           <option value="7">7</option>
+                           <option value="8">8</option>
+                           <option value="9">9</option>
+                           <option value="10">10</option>
+                           <option value="11">11</option>
+                           <option value="12">12</option>
+                           <option value="13">13</option>
+                           <option value="14">14</option>
+                           <option value="15">15</option>
+                       </select>
+                   </div>
+               </div>
                 
             </div>
-            
+ 
             <div class="product-container">
                 <div class="featured-preview">
                 
@@ -279,6 +323,23 @@
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                 </div>
+                
+                <nav class="pages">
+                    <ul class="numbers">
+                        <li><div class="fas fa-angle-left"></div></li>
+                        <li><a href="" class="active">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                        <li><a href="">6.....</a></li>
+                        <li><a href="">20</a></li>
+                        <li><a href=""><div class="fas fa-angle-right"></div></a></li>
+                    </ul>
+                    
+                    <a href="" class="view-all">View All</a>
+                </nav>
+                
             </div>
             
         </div>
