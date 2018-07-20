@@ -1,0 +1,90 @@
+.specialoffer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.specialoffer-left {
+    position: relative;
+    width: 767px;
+    height: 529px;
+
+    background-image: url(../images/index/snow-girl.jpg);
+}
+
+.specialoffer-left > div {
+    position: absolute;
+    top: 145px;
+    left: 40px;
+
+    color: #fff;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+.specialoffer-left span {
+    color: #f16d7f;
+}
+
+.specialoffer-left p:first-of-type {
+    padding-bottom: 5px;
+
+    font-size: 54px;
+    line-height: .8;
+    letter-spacing: 1.5px;
+}
+
+.specialoffer-left p:last-of-type {
+    font-size: 32px;
+    letter-spacing: .9px;
+}
+
+
+.specialoffer-right {
+    width: 373px;
+
+    background-color: #222224;
+}
+
+.specialoffer-right-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+}
+
+.specialoffer-item-icon {
+    width: 110px;
+
+    text-align: center;
+}
+
+.specialoffer-item-text {
+    width: 263px;
+
+    color: #fbfbfb;
+}
+
+.specialoffer-item-text h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: .8;
+    letter-spacing: .5px;
+}
+
+.specialoffer-item-text p {
+    width: 219px;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: .35px;
+
+    text-align: left;
+}

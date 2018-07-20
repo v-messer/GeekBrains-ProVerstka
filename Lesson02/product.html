@@ -1,8 +1,7 @@
 <!--
-1. Поставить ссылку на документ в Index
-2. Стилизовать чек-бокс
-3. Стилизовать Range
 4. Перекинуть fearured в featured.css
+spec offer
+переместить изобра из индекс а в папку
 
 -->
 
@@ -18,13 +17,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/static.css">
+    <link rel="stylesheet" href="css/featured.css">
+    <link rel="stylesheet" href="css/specialoffer.css">
     <link rel="stylesheet" href="css/product.css">
-    <link rel="stylesheet" href="css/index.css">
-    
+
+
 
 </head>
+
 <body>
-   <header>
+    <header class="top-header">
         <div class="container">
             <div class="header-container-left">
                 <a href="index.html" class="header-logo">
@@ -67,44 +69,93 @@
             <li><a href="#">HOT DEALS</a></li>
         </ul>
     </nav>
-    
+
     <header class="product-header">
         <div class="container">
             <h1>NEW ARRIVALS</h1>
             <nav class="breadcrumbs">
-                <a href="#">Home</a> / <a href="#">Men</a> / <span>New Arrivals</span> 
+                <a href="index.html">Home</a> / <a href="#">Men</a> / <span>New Arrivals</span>
             </nav>
         </div>
     </header>
-    
+
     <section class="catalogue container">
         <nav class="left-nav">
-            <a href="" class="left-nav-group opened">CATEGORY<div class="fas fa-caret-up"></div>
-            </a>
-            <div class="bottom-border"></div>
-            <ul>
-                <li><a href="#">Accessories</a></li>
-                <li><a href="#">Bags</a></li>
-                <li><a href="#">Denim</a></li>
-                <li><a href="#">Hoodies & Sweatshirts</a></li>
-                <li><a href="#">Jackets & Coats</a></li>
-                <li><a href="#">Pants</a></li>
-                <li><a href="#">Polos</a></li>
-                <li><a href="#">Shirts</a></li>
-                <li><a href="#">Shoes</a></li>
-                <li><a href="#">Shorts</a></li>
-                <li><a href="#">Sweaters & Knits</a></li>
-                <li><a href="#">T-Shirts</a></li>
-                <li><a href="#">Tanks</a></li>
-            </ul>
-            <a href="" class="left-nav-group closed">BRAND<div class="fas fa-caret-down"></div>
-            </a>
-            <div class="bottom-border"></div>
-            <a href="" class="left-nav-group closed">DESIGNER<div class="fas fa-caret-down"></div>
-            </a>
-            <div class="bottom-border"></div>
+            <details>
+                <summary class="left-nav-group">
+                    CATEGORY
+                    <div class="fas fa-caret-down"></div>
+                    <div class="fas fa-caret-up"></div>
+
+                </summary>
+                <div class="bottom-border"></div>
+                <ul>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                    <li><a href="#">Jackets & Coats</a></li>
+                    <li><a href="#">Pants</a></li>
+                    <li><a href="#">Polos</a></li>
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Sweaters & Knits</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Tanks</a></li>
+                </ul>
+            </details>
+            <div class="bottom-border-down"></div>
+            <details>
+                <summary class="left-nav-group">
+                    BRAND
+                    <div class="fas fa-caret-down"></div>
+                    <div class="fas fa-caret-up"></div>
+                </summary>
+                <div class="bottom-border"></div>
+                <ul>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                    <li><a href="#">Jackets & Coats</a></li>
+                    <li><a href="#">Pants</a></li>
+                    <li><a href="#">Polos</a></li>
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Sweaters & Knits</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Tanks</a></li>
+                </ul>
+            </details>
+            <div class="bottom-border-down"></div>
+            <details>
+                <summary class="left-nav-group">
+                    DESIGNER
+                    <div class="fas fa-caret-down"></div>
+                    <div class="fas fa-caret-up"></div>
+                </summary>
+                <div class="bottom-border"></div>
+                <ul>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                    <li><a href="#">Jackets & Coats</a></li>
+                    <li><a href="#">Pants</a></li>
+                    <li><a href="#">Polos</a></li>
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Sweaters & Knits</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Tanks</a></li>
+                </ul>
+            </details>
+            <div class="bottom-border-down"></div>
         </nav>
-        
+
         <div class="catalogue-main">
             <div class="catalogue-main-filter">
                 <div class="trending">
@@ -120,13 +171,13 @@
                             <a href="#">Lace</a>
                             <a href="#">Bohemian</a>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div class="size">
                     <h3>SIZE</h3>
                     <div class="filter-wrapper">
                         <div>
-                            
+
                             <input type="checkbox" id="check1">
                             <label for="check1">
                               <div class="checkmark"></div>
@@ -144,10 +195,10 @@
                             <label for="check4">
                                 <div class="checkmark"></div>M
                             </label>
-                            
+
 
                         </div>
-                        
+
                         <div>
                             <input type="checkbox" id="check5">
                             <label for="check5">
@@ -161,44 +212,44 @@
                             <label for="check7">
                                 <div class="checkmark"></div>XXL
                             </label>
-                        </div>  
-                    </div>                         
+                        </div>
+                    </div>
                 </div>
-                
+
                 <div class="price">
                     <h3>PRICE</h3>
-                    
-                        <form class ="filter-wrapper" action="" oninput="output.value=range.value">
-                           
-                            <div>
-                                <input type="range" name ="range" min="0" max="1000" step="10"  value="0" class="price-range" id="range">
-                            </div>
-                            <div class="output-value">
-                               <span>$0</span>
-                               <span>$<output for="range" name="output">0</output></span>
-                                
-                            </div>
-                            
-                        </form>
-                    
+
+                    <form class="filter-wrapper" action="" oninput="output.value=range.value">
+
+                        <div>
+                            <input type="range" name="range" min="0" max="1000" step="10" value="0" class="price-range" id="range">
+                        </div>
+                        <div class="output-value">
+                            <span>$0</span>
+                            <span>$<output for="range" name="output">0</output></span>
+
+                        </div>
+
+                    </form>
+
                 </div>
             </div>
-            
+
             <div class="sort">
-               <div class="sort-container">
-                   <div class="sort-label">Sort By</div>
-                   <div class="sort-select">
-                       <select name="" id="">
+                <div class="sort-container">
+                    <div class="sort-label">Sort By</div>
+                    <div class="sort-select">
+                        <select name="" id="">
                            <option value="Name">Name</option>
                            <option value="Price">Price</option>
                        </select>
-                   </div>
-               </div>
-               
-               <div class="sort-container">
-                   <div class="sort-label">Show</div>
-                   <div class="sort-select">
-                       <select name="" id="">
+                    </div>
+                </div>
+
+                <div class="sort-container">
+                    <div class="sort-label">Show</div>
+                    <div class="sort-select">
+                        <select name="" id="">
                            <option value="1">1</option>
                            <option value="2">2</option>
                            <option value="3">3</option>
@@ -215,14 +266,14 @@
                            <option value="14">14</option>
                            <option value="15">15</option>
                        </select>
-                   </div>
-               </div>
-                
+                    </div>
+                </div>
+
             </div>
- 
+
             <div class="product-container">
                 <div class="featured-preview">
-                
+
                     <figure class="featured-preview-item">
                         <img src="images/product/product01.jpg" alt="">
                         <figcaption>
@@ -231,7 +282,8 @@
                         </figcaption>
                         <a href="" class="featured-hover-mod">
                             <div class="featured-hover-black"></div>
-                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div></a>
+                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div>
+                        </a>
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                     <figure class="featured-preview-item">
@@ -242,7 +294,8 @@
                         </figcaption>
                         <a href="" class="featured-hover-mod">
                             <div class="featured-hover-black"></div>
-                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div></a>
+                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div>
+                        </a>
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                     <figure class="featured-preview-item">
@@ -253,7 +306,8 @@
                         </figcaption>
                         <a href="" class="featured-hover-mod">
                             <div class="featured-hover-black"></div>
-                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div></a>
+                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div>
+                        </a>
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                     <figure class="featured-preview-item">
@@ -264,7 +318,8 @@
                         </figcaption>
                         <a href="" class="featured-hover-mod">
                             <div class="featured-hover-black"></div>
-                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div></a>
+                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div>
+                        </a>
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                     <figure class="featured-preview-item">
@@ -275,7 +330,8 @@
                         </figcaption>
                         <a href="" class="featured-hover-mod">
                             <div class="featured-hover-black"></div>
-                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div></a>
+                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div>
+                        </a>
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                     <figure class="featured-preview-item">
@@ -286,7 +342,8 @@
                         </figcaption>
                         <a href="" class="featured-hover-mod">
                             <div class="featured-hover-black"></div>
-                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div></a>
+                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div>
+                        </a>
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                     <figure class="featured-preview-item">
@@ -297,7 +354,8 @@
                         </figcaption>
                         <a href="" class="featured-hover-mod">
                             <div class="featured-hover-black"></div>
-                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div></a>
+                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div>
+                        </a>
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                     <figure class="featured-preview-item">
@@ -308,7 +366,8 @@
                         </figcaption>
                         <a href="" class="featured-hover-mod">
                             <div class="featured-hover-black"></div>
-                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div></a>
+                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div>
+                        </a>
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                     <figure class="featured-preview-item">
@@ -319,14 +378,17 @@
                         </figcaption>
                         <a href="" class="featured-hover-mod">
                             <div class="featured-hover-black"></div>
-                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div></a>
+                            <div class="featured-cart"><img src="images/cart-white.svg" alt="">Add to Cart</div>
+                        </a>
                         <a href="" class="featured-cart-link"></a>
                     </figure>
                 </div>
-                
+
                 <nav class="pages">
                     <ul class="numbers">
-                        <li><div class="fas fa-angle-left"></div></li>
+                        <li>
+                            <div class="fas fa-angle-left"></div>
+                        </li>
                         <li><a href="" class="active">1</a></li>
                         <li><a href="">2</a></li>
                         <li><a href="">3</a></li>
@@ -334,46 +396,87 @@
                         <li><a href="">5</a></li>
                         <li><a href="">6.....</a></li>
                         <li><a href="">20</a></li>
-                        <li><a href=""><div class="fas fa-angle-right"></div></a></li>
+                        <li>
+                            <a href="">
+                                <div class="fas fa-angle-right"></div>
+                            </a>
+                        </li>
                     </ul>
-                    
+
                     <a href="" class="view-all">View All</a>
                 </nav>
-                
+
             </div>
-            
+
         </div>
-        
 
     </section>
-    
-    <div class="quote-subscr">
-        <div class="container">
-            <div class="quote">
-                <img src="images/quote-photo.png" alt="Client photo">
-                <div class="quote-content">
-                    <blockquote>
-                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
-                    </blockquote>
-                    <p>Bin Burhan</p>
-                    <p>Dhaka, Bd</p>
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li class="quote-active"><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="subscribe">
-                <h2>SUBSCRIBE</h2>
-                <h3>FOR OUR NEWLETTER AND PROMOTION</h3>
-                <div class="subscrube-input">
-                    <input type="text" placeholder="Enter Your Email">
-                    <a href="" class="subscribe-button">
-                        Subscribe
-                    </a>
+
+    <section class="specialoffer">
+        <div class="specialoffer-right">
+            <div>
+                <div class="specialoffer-right-item">
+                    <div class="specialoffer-item-icon">
+                        <img src="images/spec-deliv.png" alt="">
+                    </div>
+                    <div class="specialoffer-item-text">
+                        <h2>Free Delivery</h2>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innovation with extensive models.</p>
+                    </div>
                 </div>
 
+                <div class="specialoffer-right-item">
+                    <div class="specialoffer-item-icon">
+                        <img src="images/spec-proc.png" alt="">
+                    </div>
+                    <div class="specialoffer-item-text">
+                        <h2>Sales & discounts</h2>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innovation with extensive models.</p>
+                    </div>
+                </div>
+
+                <div class="specialoffer-right-item">
+                    <div class="specialoffer-item-icon">
+                        <img src="images/spec-crown.png" alt="">
+                    </div>
+                    <div class="specialoffer-item-text">
+                        <h2>Quality assurance</h2>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innovation with extensive models.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="quote-subscr">
+        <div class="back">
+            <div class="container">
+                <div class="quote">
+                    <img src="images/quote-photo.png" alt="Client photo">
+                    <div class="quote-content">
+                        <blockquote>
+                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                        </blockquote>
+                        <p>Bin Burhan</p>
+                        <p>Dhaka, Bd</p>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li class="quote-active"><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <h2>SUBSCRIBE</h2>
+                    <h3>FOR OUR NEWLETTER AND PROMOTION</h3>
+                    <div class="subscrube-input">
+                        <input type="text" placeholder="Enter Your Email">
+                        <a href="" class="subscribe-button">
+                            Subscribe
+                        </a>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -424,11 +527,17 @@
     </footer>
 
     <footer class="footer">
-        <div>© 2017 Brand All Rights Reserved.</div>
+        <div>
+            <div>© 2017 Brand All Rights Reserved.</div>
+            <div class="socials">
+                <a class="fab fa-facebook-f" href=""></a>
+                <a class="fab fa-twitter" href=""></a>
+                <a class="fab fa-linkedin-in" href=""></a>
+                <a class="fab fa-pinterest-p" href=""></a>
+                <a class="fab fa-google-plus-g" href=""></a>
+            </div>
+        </div>
     </footer>
-    
 
-    
-    
 </body>
 </html>
